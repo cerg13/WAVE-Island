@@ -1,0 +1,475 @@
+{
+  "spirits": [
+    {
+      "id": "ember_sprite",
+      "displayName": "Ember Sprite",
+      "displayNameRu": "Огненный Спрайт",
+      "description": "A tiny fire spirit that speeds up your crafting",
+      "lore": "Born from the first spark of a tropical bonfire",
+      "rarity": "Common",
+      "element": "Fire",
+      "abilities": [
+        {
+          "name": "Quick Flame",
+          "description": "Crafting speed +5%",
+          "type": "CraftSpeedBonus",
+          "baseValue": 5,
+          "valuePerLevel": 1
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.12,
+      "iikoExclusive": false
+    },
+    {
+      "id": "dewdrop",
+      "displayName": "Dewdrop",
+      "displayNameRu": "Росинка",
+      "description": "A water spirit that keeps your plants hydrated",
+      "lore": "Condensed from morning mist on tropical leaves",
+      "rarity": "Common",
+      "element": "Water",
+      "abilities": [
+        {
+          "name": "Morning Dew",
+          "description": "Auto-water chance 10%",
+          "type": "AutoWater",
+          "baseValue": 10,
+          "valuePerLevel": 2
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.12,
+      "iikoExclusive": false
+    },
+    {
+      "id": "pebble_guardian",
+      "displayName": "Pebble Guardian",
+      "displayNameRu": "Страж Камней",
+      "description": "An earth spirit that improves harvests",
+      "lore": "Ancient spirit dwelling in volcanic rocks",
+      "rarity": "Common",
+      "element": "Earth",
+      "abilities": [
+        {
+          "name": "Bountiful Earth",
+          "description": "Harvest bonus +1",
+          "type": "HarvestBonus",
+          "baseValue": 1,
+          "valuePerLevel": 0.5
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.12,
+      "iikoExclusive": false
+    },
+    {
+      "id": "breeze_wisp",
+      "displayName": "Breeze Wisp",
+      "displayNameRu": "Вихревой Дух",
+      "description": "An air spirit bringing luck to your adventures",
+      "lore": "Formed from the trade winds crossing the island",
+      "rarity": "Common",
+      "element": "Air",
+      "abilities": [
+        {
+          "name": "Lucky Breeze",
+          "description": "Luck bonus +3%",
+          "type": "LuckBonus",
+          "baseValue": 3,
+          "valuePerLevel": 0.5
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.12,
+      "iikoExclusive": false
+    },
+    {
+      "id": "sprout_fairy",
+      "displayName": "Sprout Fairy",
+      "displayNameRu": "Фея Ростков",
+      "description": "A nature spirit that accelerates plant growth",
+      "lore": "Awakened when the first seed sprouted on WAVE Island",
+      "rarity": "Common",
+      "element": "Nature",
+      "abilities": [
+        {
+          "name": "Growth Aura",
+          "description": "Growth speed +5%",
+          "type": "GrowthSpeedBonus",
+          "baseValue": 5,
+          "valuePerLevel": 1
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.12,
+      "iikoExclusive": false
+    },
+    {
+      "id": "coral_dancer",
+      "displayName": "Coral Dancer",
+      "displayNameRu": "Коралловый Танцор",
+      "description": "A graceful spirit from the reef that brings coin bonuses",
+      "lore": "Born from the shimmer of sunlight on coral",
+      "rarity": "Uncommon",
+      "element": "Water",
+      "abilities": [
+        {
+          "name": "Coral Fortune",
+          "description": "Coin bonus +5%",
+          "type": "CoinBonus",
+          "baseValue": 5,
+          "valuePerLevel": 1
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.06,
+      "iikoExclusive": false
+    },
+    {
+      "id": "jungle_sprite",
+      "displayName": "Jungle Sprite",
+      "displayNameRu": "Джунглевый Спрайт",
+      "description": "A wild spirit that increases rare seed drops",
+      "lore": "Guardian of the ancient jungle seeds",
+      "rarity": "Uncommon",
+      "element": "Nature",
+      "abilities": [
+        {
+          "name": "Seed Blessing",
+          "description": "Rare seed chance +10%",
+          "type": "RareSeedChance",
+          "baseValue": 10,
+          "valuePerLevel": 2
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.06,
+      "iikoExclusive": false
+    },
+    {
+      "id": "sunset_glow",
+      "displayName": "Sunset Glow",
+      "displayNameRu": "Закатное Сияние",
+      "description": "A warm spirit that enhances experience gain",
+      "lore": "Captured the magic of a thousand island sunsets",
+      "rarity": "Uncommon",
+      "element": "Sun",
+      "abilities": [
+        {
+          "name": "Golden Hour",
+          "description": "Experience bonus +10%",
+          "type": "ExpBonus",
+          "baseValue": 10,
+          "valuePerLevel": 2
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.05,
+      "iikoExclusive": false
+    },
+    {
+      "id": "moonbeam",
+      "displayName": "Moonbeam",
+      "displayNameRu": "Лунный Луч",
+      "description": "A mysterious spirit that works while you sleep",
+      "lore": "Descended from the tropical moon's silver light",
+      "rarity": "Uncommon",
+      "element": "Moon",
+      "abilities": [
+        {
+          "name": "Night Watch",
+          "description": "Offline progress +15%",
+          "type": "GrowthSpeedBonus",
+          "baseValue": 15,
+          "valuePerLevel": 3
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.05,
+      "iikoExclusive": false
+    },
+    {
+      "id": "volcano_imp",
+      "displayName": "Volcano Imp",
+      "displayNameRu": "Вулканический Бес",
+      "description": "A fiery spirit that supercharges crafting",
+      "lore": "Emerged from the island's dormant volcano",
+      "rarity": "Rare",
+      "element": "Fire",
+      "abilities": [
+        {
+          "name": "Volcanic Heat",
+          "description": "Crafting speed +15%",
+          "type": "CraftSpeedBonus",
+          "baseValue": 15,
+          "valuePerLevel": 3
+        },
+        {
+          "name": "Ingredient Saver",
+          "description": "5% chance to save ingredients",
+          "type": "IngredientSaver",
+          "baseValue": 5,
+          "valuePerLevel": 1
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.025,
+      "iikoExclusive": false
+    },
+    {
+      "id": "tide_guardian",
+      "displayName": "Tide Guardian",
+      "displayNameRu": "Страж Приливов",
+      "description": "A powerful water spirit with shop discounts",
+      "lore": "Rules the tides around WAVE Island",
+      "rarity": "Rare",
+      "element": "Water",
+      "abilities": [
+        {
+          "name": "Tidal Bargain",
+          "description": "Shop discount 10%",
+          "type": "ShopDiscount",
+          "baseValue": 10,
+          "valuePerLevel": 2
+        },
+        {
+          "name": "Pearl Finder",
+          "description": "Sell bonus +10%",
+          "type": "SellBonus",
+          "baseValue": 10,
+          "valuePerLevel": 2
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.025,
+      "iikoExclusive": false
+    },
+    {
+      "id": "ancient_treant",
+      "displayName": "Ancient Treant",
+      "displayNameRu": "Древний Треант",
+      "description": "A wise earth spirit maximizing harvests",
+      "lore": "The oldest living spirit on the island",
+      "rarity": "Rare",
+      "element": "Earth",
+      "abilities": [
+        {
+          "name": "Ancient Wisdom",
+          "description": "Harvest bonus +3",
+          "type": "HarvestBonus",
+          "baseValue": 3,
+          "valuePerLevel": 0.5
+        },
+        {
+          "name": "Root Network",
+          "description": "Growth speed +10%",
+          "type": "GrowthSpeedBonus",
+          "baseValue": 10,
+          "valuePerLevel": 2
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.025,
+      "iikoExclusive": false
+    },
+    {
+      "id": "phoenix_spark",
+      "displayName": "Phoenix Spark",
+      "displayNameRu": "Искра Феникса",
+      "description": "A legendary fire spirit with incredible crafting powers",
+      "lore": "A fragment of the mythical island phoenix",
+      "rarity": "Epic",
+      "element": "Fire",
+      "abilities": [
+        {
+          "name": "Phoenix Fire",
+          "description": "Crafting speed +25%",
+          "type": "CraftSpeedBonus",
+          "baseValue": 25,
+          "valuePerLevel": 5
+        },
+        {
+          "name": "Rebirth Flame",
+          "description": "15% chance to save ingredients",
+          "type": "IngredientSaver",
+          "baseValue": 15,
+          "valuePerLevel": 3
+        },
+        {
+          "name": "Quality Fire",
+          "description": "+20 coins from crafts",
+          "type": "QualityBonus",
+          "baseValue": 20,
+          "valuePerLevel": 5
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.01,
+      "iikoExclusive": false
+    },
+    {
+      "id": "ocean_leviathan",
+      "displayName": "Ocean Leviathan",
+      "displayNameRu": "Океанский Левиафан",
+      "description": "An epic water spirit with massive bonuses",
+      "lore": "The spirit of the deep ocean surrounding the island",
+      "rarity": "Epic",
+      "element": "Water",
+      "abilities": [
+        {
+          "name": "Depths Blessing",
+          "description": "Auto-water chance 50%",
+          "type": "AutoWater",
+          "baseValue": 50,
+          "valuePerLevel": 5
+        },
+        {
+          "name": "Ocean Wealth",
+          "description": "Coin bonus +20%",
+          "type": "CoinBonus",
+          "baseValue": 20,
+          "valuePerLevel": 3
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.01,
+      "iikoExclusive": false
+    },
+    {
+      "id": "gaia_avatar",
+      "displayName": "Gaia's Avatar",
+      "displayNameRu": "Аватар Геи",
+      "description": "A legendary earth spirit of unmatched harvesting power",
+      "lore": "The embodiment of the island's fertile earth",
+      "rarity": "Legendary",
+      "element": "Earth",
+      "abilities": [
+        {
+          "name": "Gaia's Blessing",
+          "description": "Harvest bonus +5",
+          "type": "HarvestBonus",
+          "baseValue": 5,
+          "valuePerLevel": 1
+        },
+        {
+          "name": "Fertile Ground",
+          "description": "Growth speed +30%",
+          "type": "GrowthSpeedBonus",
+          "baseValue": 30,
+          "valuePerLevel": 5
+        },
+        {
+          "name": "Seed Master",
+          "description": "Rare seed chance +30%",
+          "type": "RareSeedChance",
+          "baseValue": 30,
+          "valuePerLevel": 5
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.003,
+      "iikoExclusive": false
+    },
+    {
+      "id": "eclipse_dragon",
+      "displayName": "Eclipse Dragon",
+      "displayNameRu": "Дракон Затмения",
+      "description": "The ultimate legendary spirit combining sun and moon",
+      "lore": "Born during the rare total eclipse over WAVE Island",
+      "rarity": "Legendary",
+      "element": "Moon",
+      "abilities": [
+        {
+          "name": "Eclipse Power",
+          "description": "All bonuses +10%",
+          "type": "ExpBonus",
+          "baseValue": 25,
+          "valuePerLevel": 5
+        },
+        {
+          "name": "Day & Night",
+          "description": "Coin bonus +25%",
+          "type": "CoinBonus",
+          "baseValue": 25,
+          "valuePerLevel": 5
+        },
+        {
+          "name": "Celestial Luck",
+          "description": "Gacha luck +15%",
+          "type": "LuckBonus",
+          "baseValue": 15,
+          "valuePerLevel": 3
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0.002,
+      "iikoExclusive": false
+    },
+    {
+      "id": "wave_master",
+      "displayName": "WAVE Master",
+      "displayNameRu": "Мастер WAVE",
+      "description": "Exclusive spirit for loyal WAVE customers",
+      "lore": "The patron spirit of WAVE Island, rewards true fans",
+      "rarity": "Legendary",
+      "element": "Smoke",
+      "abilities": [
+        {
+          "name": "WAVE Blessing",
+          "description": "iiko rewards +50%",
+          "type": "IikoBonus",
+          "baseValue": 50,
+          "valuePerLevel": 10
+        },
+        {
+          "name": "VIP Treatment",
+          "description": "Daily bonus +100%",
+          "type": "DailyBonus",
+          "baseValue": 100,
+          "valuePerLevel": 20
+        },
+        {
+          "name": "Smoke Rings",
+          "description": "All bonuses +5%",
+          "type": "CoinBonus",
+          "baseValue": 15,
+          "valuePerLevel": 3
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0,
+      "iikoExclusive": true,
+      "unlockOrderCount": 10
+    },
+    {
+      "id": "shisha_sage",
+      "displayName": "Shisha Sage",
+      "displayNameRu": "Мудрец Кальяна",
+      "description": "A wise smoke spirit granting recipe knowledge",
+      "lore": "Contains the wisdom of a thousand smoking sessions",
+      "rarity": "Epic",
+      "element": "Smoke",
+      "abilities": [
+        {
+          "name": "Smoke Wisdom",
+          "description": "Free recipe hints",
+          "type": "RecipeHint",
+          "baseValue": 1,
+          "valuePerLevel": 0.5
+        },
+        {
+          "name": "Flavor Master",
+          "description": "Crafting quality +15",
+          "type": "QualityBonus",
+          "baseValue": 15,
+          "valuePerLevel": 3
+        }
+      ],
+      "maxLevel": 10,
+      "gachaDropRate": 0,
+      "iikoExclusive": true,
+      "unlockOrderCount": 5
+    }
+  ]
+}
